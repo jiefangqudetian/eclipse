@@ -1,0 +1,21 @@
+<classpath>
+  <container id="web-01!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/eclipse-workspace/web-01/WebContent/WEB-INF/lib/commons-codec-1.11.jar">
+      <source-attachment-path>E:/kaisheng25/jars/apache-commons/commons-codec-1.11-src.zip</source-attachment-path>
+    </entry>
+    <entry id="E:/eclipse-workspace/web-01/WebContent/WEB-INF/lib/mysql-connector-java-5.1.6.jar">
+      <source-attachment-path>E:/kaisheng25/jars/commons-lang3-3.5-bin/commons-lang3-3.5/commons-lang3-3.5-sources.jar</source-attachment-path>
+    </entry>
+    <entry id="E:/eclipse-workspace/web-01/WebContent/WEB-INF/lib/commons-dbutils-1.7.jar">
+      <source-attachment-path>E:/kaisheng25/jars/apache-commons/commons-dbutils-1.7-src.zip</source-attachment-path>
+    </entry>
+    <entry id="E:/eclipse-workspace/web-01/WebContent/WEB-INF/lib/commons-lang3-3.5.jar">
+      <source-attachment-path>E:/kaisheng25/jars/commons-lang3-3.5-bin/commons-lang3-3.5/commons-lang3-3.5-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="web-03!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/eclipse-workspace/web-03/WebContent/WEB-INF/lib/commons-fileupload-1.3.3.jar">
+      <source-attachment-path>E:/kaisheng25/jars/apache-commons/commons-fileupload-1.3.3-src.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

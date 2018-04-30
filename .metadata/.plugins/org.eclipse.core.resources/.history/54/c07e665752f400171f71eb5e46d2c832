@@ -1,0 +1,50 @@
+package com.kaishengit.web;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.kaishengit.entity.Admin;
+import com.kaishengit.exception.ServiceException;
+import com.kaishengit.service.AdminService;
+
+public class LoginServlet extends HttpServlet{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, resp);
+		System.out.println("123");
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		req.setCharacterEncoding("UTF-8");
+		
+		String userName = req.getParameter("username");
+		String pass = req.getParameter("password");
+		
+		AdminService adminService = new AdminService();
+		
+		try {
+			Admin admin = adminService.login(userName,pass);
+			resp.sendRedirect("/list");
+			
+		} catch (ServiceException e) {
+			// TODO: handle exception
+			req.setAttribute("message", e.getMessage());
+			req.setAttribute("username", userName);
+			req.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(req, resp);
+		}
+		System.out.println("456");
+	}
+	
+
+}

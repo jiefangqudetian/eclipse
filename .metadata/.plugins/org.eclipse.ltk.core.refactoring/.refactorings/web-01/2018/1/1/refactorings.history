@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;web-01/WebContent/statci&apos; to &apos;static&apos;" description="Rename resource &apos;statci&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/statci" name="static" stamp="1515209075165" updateReferences="true"/>
+</session>

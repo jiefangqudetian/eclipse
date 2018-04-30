@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="java.io.tmpdir"/>
+	<cache name="account"
+		maxElementsInMemory="100"
+		eternal="false"
+		TimeToIdleSeconds="50"
+		TimeToLiveSeconds="50"
+		overflowToDisk="true"
+	/>
+	<cache name="disk"
+		maxElementsInMemory="100"
+		eternal="false"
+		TimeToIdleSeconds="50"
+		TimeToLiveSeconds="50"
+		overflowToDisk="true"
+	/>
+	<!--name 缓存名
+		maxElementsInMemory 最大缓存数
+		eternal:true 永不过期
+		TimeToIdleSeconds 闲置时间
+		TimeToLiveSeconds 存活时间
+		overflowToDisk:true 内存溢出写入磁盘
+	 -->
+
+
+</ehcache>

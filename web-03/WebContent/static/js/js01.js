@@ -1,0 +1,1 @@
+alert("hello,outter js");

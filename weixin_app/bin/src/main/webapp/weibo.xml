@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<weibo>
+	<id></id>
+	<name></name>
+	<time></time>
+	<place></place>
+	<picture></picture>
+	<contents>
+	</contents>
+	<comments>
+		<comment>
+			<id></id>
+			<name></name>
+			<time></time>
+			<place></place>
+			<picture></picture>
+			<contents>
+			</contents>
+		</comment>
+		<comment></comment>
+	</comments>
+	<zans>
+		<zan>
+			<id></id>
+			<name></name>
+			<time></time>
+			<place></place>
+			<picture></picture>
+			<contents>
+			</contents>
+		</zan>
+		<zan>
+			<id></id>
+			<name></name>
+			<time></time>
+			<place></place>
+			<picture></picture>
+			<contents>
+			</contents>
+		</zan>
+	</zans>
+	<zhuanfas>
+		<zhuanfa>
+			<id></id>
+			<name></name>
+			<time></time>
+			<place></place>
+			<picture></picture>
+			<contents>
+			</contents>
+		</zhuanfa>
+		<zhuanfa>
+			<id></id>
+			<name></name>
+			<time></time>
+			<place></place>
+			<picture></picture>
+			<contents>
+			</contents>
+		</zhuanfa>
+	</zhuanfas>
+
+
+</weibo>

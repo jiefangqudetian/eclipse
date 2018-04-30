@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="btn">sendAjax</button>
+    <script src="/static/js/jquery-3.2.1.js"></script>
+    <script>
+/*     	(function(){
+    		//创建xmlHttpRequest对象
+    		var xmlHttp = null;
+    		if(window.ActiveXObject){
+    			//IE浏览器获得ajax引擎
+    			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    		} else {
+    			//非IE浏览器获得ajax引擎
+    			xmlHttp = new XMLHttpRequest();
+    		}
+    		
+    		var btn = document.getElementById("btn");
+    		btn.onclick = function(){
+    			//指定请求方式
+    			xmlHttp.open('get','ajax');
+    			//xmlHttp.open('get','ajax?='+new Date().getTime());
+    			//发送
+    			xmlHttp.send();
+    		}
+    	})(); */
+    	$(function(){
+    		$("#btn").click(function(){
+    			$.get("/ajax");
+    		});
+    	})
+    </script>
+</body>
+</html>
